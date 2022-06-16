@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<h1><center>Emergency Alert System</center></h1>
+<div class="navbar">
+  <a href="#home">Home&emsp;&emsp;&emsp;</a>&emsp;&emsp;&emsp;
+  <a href="#news">Survey&emsp;&emsp;&emsp;</a>&emsp;&emsp;&emsp;
+  <a href="#news">About us&emsp;&emsp;&emsp;</a>&emsp;&emsp;&emsp;
+ 
+  <div class="dropdown">
+    <button class="dropbtn">Log In&emsp;
+        <i class="fa fa-caret-down"></i>
+      </button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+      
+    <div class="dropdown-content">
+      <a href="#Admin" onclick="document.getElementById('id01').style.display='block'"> Admin</a>
+      <a href="#HspMgr" onclick="document.getElementById('id02').style.display='block'">Hospital Manager</a>
+      <a href="#doctor" onclick="document.getElementById('id03').style.display='block'">Doctor</a>
+      <a href="#user" onclick="document.getElementById('id04').style.display='block'">User</a>
+     
+    </div>   
+      </div>
+  </div> 
+<div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="adminlogin" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="https://i.ibb.co/b5xK0k7/3135715-2.png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="apass"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="aname" value="admin" required >
+  
+        <label for="apass"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="apass" value="abc123" required>
+          
+        <button type="submit" value="Login"><strong>Login</strong></button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw"> <a href="#">Forgot password?</a></span>
+      </div>
+      </form>
+      </div>
+      
+<div id="id02" class="modal">
+  
+    <form class="modal-content animate" action="managerlogin" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="https://i.ibb.co/xJdXD7Y/265674.png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="mname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="mname" required>
+  
+        <label for="mpass"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="mpass" required>
+          
+        <button type="submit"><strong>Login</strong></button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+      </form>
+      </div>
+ 
+<div id="id03" class="modal">
+  
+    <form class="modal-content animate" action="doctorlogin" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="https://i.ibb.co/r742zdc/387561-1.png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="dname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="dname" required>
+  
+        <label for="dpass"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="dpass" required>
+          
+        <button type="submit"><strong>Login</strong></button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+      </form>
+      </div>
+      
+<div id="id04" class="modal">
+  
+    <form class="modal-content animate" action="userlogin" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="https://i.ibb.co/tJSrcW6/4228704-2.png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit"><strong>Login</strong></button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id04').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+      </form>
+      </div>
+      
+      
+       <br><br><br>
+    <table border="0" width="250" style="padding-left:200px">
+        <tr> 
+            <th>Facility</th>
+        </tr>
+    </table>
+    <div class="facility" style="padding-left:150px">
+    <ul>
+        &emsp;&emsp;<li>Medical Advices & Check Ups</li>
+        &emsp;&emsp;<li>Trusted Medical Treatment</li>
+        &emsp;&emsp;<li>Emergency Help Available 24/7</li>
+        &emsp;&emsp;<li>Medical Research Professionals</li>
+        &emsp;&emsp;<li>Only Qualified Doctors</li>
+        &emsp;&emsp;<li>Quality Care For Every Patients</li>
+   </ul>
+    </div>
+   
+    <frame src="contactus.html" name="f2">
+    &emsp;&emsp;&emsp;&emsp;<button input="contact us" value="contact us"><a href="contactus.html" target="f2"
+        style="text-decoration: none;"><strong>Contact Us</strong></button>
+
+</body>
+</html>
