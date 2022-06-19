@@ -6,7 +6,7 @@ It will register the hospitals along with all details specifically vacant bed de
 If any emergency happens, this software will give the information about bed availability. 
 It will be a Web Based for administrator, hospital managers, doctors and users.
 
-"The core code for bed booking system is available in this repository, you can use this for future reference as in the informatioon given below."
+"The core code for bed booking system is available in this repository, you can use this for future reference as in the information given below."
 
 Listed languages,IDEs,Servers & databases is used to construct the project:-
 This code is developed using Java as a backend language.
