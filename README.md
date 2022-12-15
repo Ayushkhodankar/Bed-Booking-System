@@ -22,18 +22,18 @@ Admin will register all hospital managers for the particular area.
 Hospital manager , Doctors and User details, vacant bed details will be stored in admin database. 
 Data updation, deletion and insertion of new data can be done by admin. 
 
-<h4>HOSPITAL MANAGER MODULE :-</h4>
+<h4><u>HOSPITAL MANAGER MODULE :-</u></h4>
 Hospital manager can login to the system by the ID , Password which will be assigned by the admin. 
 Hospital Manager can enter Users and Doctor information in the hospital . 
 Hospital Manager will enter vacant bed information on daily basis . 
 
 
-<h4>DOCTOR MODULE :-</h4>
+<h4><u>DOCTOR MODULE :-</u></h4>
 Doctor can update their own information . 
 Doctors can see the schedule and emergency cases allotted to them. 
 Doctors can receive message for emergency cases. 
 
-<h4>USER MODULE :-</h4>
+<h4><u>USER MODULE :-</u></h4>
 User can see the vacant bed information in nearby hospital in case of emergency. 
 The user of this site can book bed in case of emergency. 
 Once the user books the bed for emergency case, SMS will be sent automatically to Doctor, Ambulance and Hospital manager. 
