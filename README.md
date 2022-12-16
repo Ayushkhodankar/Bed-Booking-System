@@ -1,4 +1,4 @@
-# Bed-Booking-System
+# Bed-Booking-System(Web Application in Java-J2EE)
 
 <h3>INTRODUCTION:</h3>
 “Emergency-Alert” will be a software that will handle different direction of hospital workflow. 
