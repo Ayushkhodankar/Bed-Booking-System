@@ -59,17 +59,3 @@ Feedback system will be available for setting the priorities among hospitals rev
   
   -Java For Backend Workings
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
