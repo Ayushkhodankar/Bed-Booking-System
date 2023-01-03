@@ -1,5 +1,5 @@
 # Bed-Booking-System(Web Application in Java-J2EE)
-
+<img src="https://github.com/Ayushkhodankar/Bed-Booking-System/blob/main/Images/ealert.png" alt="result"></img>
 <h3>INTRODUCTION:</h3>
 “Emergency-Alert” will be a software that will handle different direction of hospital workflow. 
 It will register the hospitals along with all details specifically vacant bed details .
@@ -59,4 +59,4 @@ Feedback system will be available for setting the priorities among hospitals rev
   
   -Java For Backend Workings
   
-<img src="https://github.com/Ayushkhodankar/Bed-Booking-System/blob/main/Images/ealert.png" alt="result"></img>
+
