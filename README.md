@@ -1,5 +1,5 @@
 # Bed-Booking-System(Web Application in Java-J2EE)
-<img src="https://github.com/Ayushkhodankar/Bed-Booking-System/blob/main/Images/ealert.png" alt="result"></img>
+
 <h3>INTRODUCTION:</h3>
 “Emergency-Alert” will be a software that will handle different direction of hospital workflow. 
 It will register the hospitals along with all details specifically vacant bed details .
@@ -41,24 +41,24 @@ User can book ambulance for emergency cases.
 User can contact to admin for emergency bed allotment. 
 Feedback system will be available for setting the priorities among hospitals reviewed by User. 
 
-<h3>H/W & S/W Requirement:-</h3>
 
-<h4>Minimum Hardware Requirements:</h4>
+  ## Screenshort
+  
+  <img src="https://github.com/Ayushkhodankar/Bed-Booking-System/blob/main/Images/ealert.png" alt="result"></img>
+  
+  
+<h3> Features </h3>
 
-  -256 SSD Storage
-  
-  -4 GB RAM
-  
-  -Dual-core CPU
-  
-  -Network card 
-  
-<h4>Software requirement:</h4>
 
-  -HTML ,CSS, JavaScript
-  
-  -Java For Backend Workings
-  
-  -MySQL for the database management of the project data.
-  
+### Software requirement:
+- HTML ,CSS, JavaScript
+- Java For Backend Workings
+- MySQL for the database management.
+
+
+### Hardware Requirement:
+- 256 SSD Storage
+- 4 GB RAM
+- Dual-core CPU
+- Network card
 
