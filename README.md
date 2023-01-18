@@ -58,5 +58,6 @@ Feedback system will be available for setting the priorities among hospitals rev
   -HTML ,CSS, JavaScript
   
   -Java For Backend Workings
+  -MySQL for the database management of the project data.
   
 
