@@ -62,4 +62,5 @@ Feedback system will be available for setting the priorities among hospitals rev
   
   ## Screenshort
   
+  <img src="https://github.com/Ayushkhodankar/Bed-Booking-System/blob/main/Images/ealert.png" alt="result"></img>
   
