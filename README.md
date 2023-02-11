@@ -42,7 +42,7 @@ User can contact to admin for emergency bed allotment.
 Feedback system will be available for setting the priorities among hospitals reviewed by User. 
 
 
-  ## Screenshort
+  ## Screenshot
   
   <img src="https://github.com/Ayushkhodankar/Bed-Booking-System/blob/main/Images/ealert.png" alt="result"></img>
   
